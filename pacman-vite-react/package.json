@@ -1,0 +1,32 @@
+{
+  "name": "pacman-vite-react",
+  "homepage": "https://mistrzunio.github.io/vite-test/",
+  "version": "1.0.0",
+  "description": "A web browser-based PacMan game built with React and Vite.",
+  "main": "index.html",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest"
+  },
+  "keywords": [
+    "pacman",
+    "game",
+    "react",
+    "vite"
+  ],
+  "author": "mistrzunio (at) github",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "typescript": "^4.0.0",
+    "vitest": "^0.0.0"
+  }
+}
