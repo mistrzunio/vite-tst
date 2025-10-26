@@ -1,4 +1,15 @@
 {
+  "name": "vite-tst",
+  "private": false,
+  "scripts": {
+    "build": "npm --prefix pacman-vite-react run build",
+    "dev": "npm --prefix pacman-vite-react run dev",
+    "start": "npm --prefix pacman-vite-react run dev",
+    "preview": "npm --prefix pacman-vite-react run serve",
+    // "deploy": "npm --prefix pacman-vite-react run deploy"
+    "predeploy": "npm --prefix pacman-vite-react run predeploy",
+    "deploy": "gh-pages -d dist", 
+  },
   "dependencies": {
     "gh-pages": "^6.3.0"
   }
