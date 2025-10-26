@@ -1,0 +1,13 @@
+.game-board {
+  width: 448px; /* classic Pac-Man grid width */
+  height: 496px; /* classic Pac-Man grid height */
+  background: #000;
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* small helper styles for layout */
+.game-board * {
+  box-sizing: border-box;
+}
