@@ -1,6 +1,6 @@
 {
   "name": "pacman-vite-react",
-  "homepage": "https://mistrzunio.github.io/vite-test/",
+  "homepage": "https://mistrzunio.github.io/vite-tst/",
   "version": "1.0.0",
   "description": "A web browser-based PacMan game built with React and Vite.",
   "main": "index.html",
